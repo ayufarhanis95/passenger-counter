@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+}
+
+body {
+    background-image: url(https://as1.ftcdn.net/v2/jpg/06/13/70/70/1000_F_613707057_50DcEMwbSfrJim0iA6Ya1madERguMFQq.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+div {
+    background-color: beige; opacity: 0.9;
+    width: 50%;
+    min-height: 500px;
+    text-align: center; 
+    padding: 20px;
+}
+
+button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 0.75em;
+    margin-top: 50px;
+    width: 50%;
+    cursor: grab;
+
+}
+
+#increment-btn {
+    background-color: green;
+    border-radius: 10px;
+    border: 2px solid green;
+}
+
+#save-btn {
+    background-color: lightblue;
+    border-radius: 10px;
+    border: 2px solid lightblue;
+}
+
+#reset-btn {
+    background-color: red;
+    border-radius: 10px;
+    border: 2px solid red;
+
+}
+
+h1, p {
+    padding-top: 30px;
+}
+
+#save-el {
+    font-size: 0.75em;
+}
+
